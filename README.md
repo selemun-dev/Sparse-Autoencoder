@@ -1,7 +1,7 @@
-# Sparse Autoencoder on GPT-2 Small — Group 9 (SAE-only track)
+# Sparse Autoencoder on GPT-2 Small 
 
 **iCog Labs internship — Mechanistic Interpretability focused training**
-Author: [your name] · Mentor: [mentor name] · Notebook: `[notebook file name].ipynb`
+Author: selemun Abrha  · Notebook: `sparse autoencoders.ipynb`
 
 ---
 
@@ -291,3 +291,22 @@ Parts of the code (SAE class, evaluation helpers, feature-inspection and report-
 1. Does "block-6 post-residual" mean the output of the zero-indexed block 6 (`blocks.6.hook_resid_post`, used here) or the sixth block counted from one?
 2. Is a NumPy implementation of the SAE acceptable, or should it be PyTorch?
 3. With the patching items removed for Group 9, does the 700–1,000-word report length still apply (and do tables count)?
+
+## License
+
+The code in this repository (the notebook and the Python code it contains) and the small SAE checkpoints (`sae_lambda_*.npz`) are released under the [MIT License](LICENSE). Copyright (c) 2026 [Your full name].
+
+### Third-party material (not covered by the MIT License)
+
+- **Text excerpts.** `passages.json` and `tokens.json` contain excerpts of WikiText-2 (Merity et al., 2016), which is Wikipedia text. Its dataset card lists a Creative Commons Attribution-ShareAlike license (CC BY-SA), so these files keep that license and require attribution and share-alike. Source: https://huggingface.co/datasets/Salesforce/wikitext
+- **Model.** GPT-2 Small (Radford et al., 2019) is used but not redistributed in this repository. It is distributed under its own license, see its model card: https://huggingface.co/gpt2
+
+### References
+
+- Merity, S., Xiong, C., Bradbury, J., Socher, R. (2016). *Pointer Sentinel Mixture Models.* (WikiText)
+- Radford, A., Wu, J., Child, R., Luan, D., Amodei, D., Sutskever, I. (2019). *Language Models are Unsupervised Multitask Learners.* (GPT-2)
+
+
+MIT License
+
+Copyright (c) 2026 selemun abrha
